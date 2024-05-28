@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #1E90FF;
+}
+
+.highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.section-title {
+    color: #1E90FF;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.moods img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.fun-facts {
+    margin-top: 20px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:link {
+    color: coral;
+    text-decoration: none;
+}
+
+p::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    float: left;
+    margin-right: 5px;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.details dt {
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.details dd {
+    margin: 0 0 10px 0;
+}
+
+
