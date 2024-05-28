@@ -75,3 +75,7 @@ pre {
     justify-content:start;
     margin-top: 5px;
 }
+.links-section a {
+    display: block;
+    margin: 5px 0;
+}
