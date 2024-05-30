@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans m-4">
+<div class="container mx-auto">
+    <!-- The flexible grid (content) -->
+    <div class="grid grid-cols-1">
+        <!-- Header -->
+        <div class="header order-1 bg-[#add9e6] p-10 text-center col-span-full h-32">
+            <h1 class="text-2xl font-bold">Header</h1>
+        </div>
+        <!-- Navigation -->
+        <nav class="nav bg-[#2f4f4e] order-2 text-white p-5 sm:col-span-full h-18">
+            <a href="#" class="hover:bg-gray-500 p-2 border-r-2 border-[#333]">Menu1</a>
+            <a href="#" class="hover:bg-gray-500 p-2 border-r-2 border-[#333]">Menu2</a>
+            <a href="#" class="hover:bg-gray-500 p-2">Menu3</a>
+        </nav>
+        <!-- Column1, Column2, Column3 -->
+        <div class="order-3 grid grid-cols-2 lg:grid-cols-3 h-80 lg:80">
+            <div class="column1 bg-[#aaaaaa] p-5">
+                <h2 class="text-xl font-semibold">Column1</h2>
+            </div>
+            <!-- Column2 (only visible on large screens) -->
+            <div class="column2 hidden lg:block bg-[#bbbbbb] p-5">
+                <h2 class="text-xl font-semibold">Column2</h2>
+            </div>
+            <div class="column3 bg-[#cccccc] p-5">
+                <h2 class="text-xl font-semibold">Column3</h2>
+            </div>
+        </div>
+        <!-- Column2 (visible on smaller screens) -->
+        <div class="column2 order-4 lg:hidden bg-[#bbbbbb] p-5 h-60">
+            <h2 class="text-xl font-semibold">Column2</h2>
+        </div>
+        <!-- Footer -->
+        <div class="footer bg-[#2f4f4e] order-5 text-white p-5 text-center col-span-full">
+            <h3 class="text-lg">Footer</h3>
+        </div>
+    </div>
+</div>
+</body>
+</html>
