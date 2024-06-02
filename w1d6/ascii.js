@@ -69,4 +69,4 @@ window.onload = function () {
         // Increment index or reset to 0 if end of frames is reached
         index = (index + 1) % frames.length;
     }
-}
+};
